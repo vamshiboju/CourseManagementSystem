@@ -1,0 +1,213 @@
+OUTPUTS/Results
+1-login
+2-signup
+3-exit
+Enter your choice:2
+enter your name
+vamshi
+enter your mobile number
+9390349321
+enter your Gmail
+vamshi@gmail.com
+set your password
+vamshi
+--------------Your account is created successfully--------------
+1-login
+2-signup
+3-exit
+Enter your choice:1
+Enter Gmail: vamshi@gmail.com
+Password: vamshiiii
+Invalid Gmail/password
+Enter password correctly
+1-login
+2-signup
+3-exit
+Enter your choice:1
+Enter Gmail: vamshi@gmail.com
+Password: vamshi
+------logged in Successfully---------
+1-Enroll courses
+2-your courses
+3-Log out
+Enter your choice:
+1
+1-python for everybody
+2-java programming
+3-data structures
+enter your choice:
+3
+-------------ds course enrolled successfully----------------
+-----------complete course in next 48hrs to earn certificate----------
+1-Enroll courses
+2-your courses
+3-Log out
+Enter your choice:
+1
+1-python for everybody
+2-java programming
+3-data structures
+enter your choice:
+2
+-------------java course enrolled successfully---------------
+-----------complete course in next 48hrs to earn certificate----------
+1-Enroll courses
+2-your courses
+3-Log out
+Enter your choice:
+2
+The courses you enrolled are:
+<<<ds>>>
+<<<java>>>
+enter the course name that you enrolled:
+ds
+enter the week out of 3:1
+WEEK1
+Stack Data Structure
+A stack is a useful data structure in programming. It is just like a pile of plates kept on top of each
+other.
+Think about the things you can do with such a pile of plates
+Put a new plate on top
+Remove the top plate
+If you want the plate at the bottom, you have to first remove all the plates on top. Such an
+arrangement is called Last In First Out - the last item that was placed is the first item to go out.
+A stack is an object or more specifically an abstract data structure(ADT) that allows the following
+operations:
+Push: Add an element to the top of a stack
+Pop: Remove an element from the top of a stack
+IsEmpty: Check if the stack is empty
+IsFull: Check if the stack is full
+Peek: Get the value of the top element without removing it
+Working of Stack Data Structure
+The operations work as follows:
+A pointer called TOP is used to keep track of the top element in the stack.
+When initializing the stack, we set its value to -1 so that we can check if the stack is empty by
+comparing TOP == -1.
+On pushing an element, we increase the value of TOP and place the new element in the position
+pointed to by TOP.
+On popping an element, we return the element pointed to by TOP and reduce its value.
+Before pushing, we check if the stack is already full
+Before popping, we check if the stack is already empty
+-----------------------------------------------------xxx-----------------------------------------------------------
+In ds course
+--->week1 completed<-----
+do you want to continue(yes/no)
+yes
+The courses you enrolled are:
+<<<ds>>>
+<<<java>>>
+enter the course name that you enrolled:
+ds
+enter the week out of 3:4
+course contains only 3 weeks
+1-Enroll courses
+2-your courses
+3-Log out
+Enter your choice:
+1
+1-python for everybody
+2-java programming
+3-data structures
+enter your choice:
+1
+------------python course enrolled successfully----------
+-----------complete course in next 48hrs to earn certificate----------
+1-Enroll courses
+2-your courses
+3-Log out
+Enter your choice:
+2
+The courses you enrolled are:
+<<<ds>>>
+<<<java>>>
+<<<python>>>
+enter the course name that you enrolled:
+java
+enter the week out of 3:2
+WEEK2
+Java Exception Handling
+e know that exceptions abnormally terminate the execution of a program.
+This is why it is important to handle exceptions. Here's a list of different approaches to handle
+exceptions in Java.
+try...catch block
+finally block
+throw and throws keyword
+Here's the syntax of try...catch block:
+try {
+ // code
+}
+catch(Exception e) {
+ // code
+}
+When an exception occurs, it is caught by the catch block. The catch block cannot be used without
+the try block.
+EX:
+class Main {
+ public static void main(String[] args) {
+ try {
+ int divideByZero = 5 / 0;
+ System.out.println("Rest of code in try block");
+ }
+ catch (ArithmeticException e) {
+ System.out.println("ArithmeticException => " + e.getMessage());
+ }
+ }
+}
+OUTPUT:
+ArithmeticException => / by zero
+-----------------------------------------------------xxx-----------------------------------------------------------
+In java course
+--->week2 completed<-----
+do you want to continue(yes/no)
+yes
+The courses you enrolled are:
+<<<ds>>>
+<<<java>>>
+<<<python>>>
+enter the course name that you enrolled:
+java
+enter the week out of 3:1
+WEEK1
+Java Inheritance--------------------
+Inheritance is one of the key features of OOP that allows us to create a new class from an existing
+class.
+The new class that is created is known as subclass (child or derived class) and the existing class from
+where the child class is derived is known as superclass (parent or base class).
+EX:
+class Animal {
+ String name;
+ public void eat() {
+ System.out.println("I can eat");
+ }
+}
+class Dog extends Animal {
+ public void display() {
+ System.out.println("My name is " + name);
+ }
+}
+class Main {
+ public static void main(String[] args) {
+ Dog labrador = new Dog();
+ labrador.name = "Rohu";
+ labrador.display();
+ labrador.eat();
+ }
+}
+OUTPUT:
+My name is Rohu
+I can eat
+-----------------------------------------------------xxx-----------------------------------------------------------
+In java course
+--->week1 completed<-----
+--->week2 completed<-----
+do you want to continue(yes/no)
+no
+1-Enroll courses
+2-your courses
+3-Log out
+Enter your choice:
+3
+1-login
+2-signup
+3-exit
+Enter your choice:3
